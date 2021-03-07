@@ -58,7 +58,7 @@ And here is what the output file looks like:
 When I was swimming to Trader Joe's , I found a lampshade on the sidewalk . I picked it up and gave it to my fireplace who said " Meh !"
 ```
 
-*Hint: Don't forget to consult the various functions on strings that you can learn about [here](https://www.w3schools.com/python/python_ref_string.asp)*
+*Hint: Don't forget to consult the various functions on strings, which you can learn about [here](https://www.w3schools.com/python/python_ref_string.asp).*
 
 ## Part 2: Guess my number, version 1
 In the last problem set, you wrote a program in which the program randomly selected a letter of the alphabet and the user tried to guess it. This time, the tables will be turned: the computer will have to guess what the user is thinking. In addition, we'll switch from letters to integers between 1 and 100, inclusive.
