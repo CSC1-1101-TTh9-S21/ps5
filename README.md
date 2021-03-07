@@ -31,7 +31,7 @@ In this program, you will write your own interface for doing [Madlibs](https://e
 When I was VERB_IN_ING to PLACE , I found a NOUN on the sidewalk .
 ```
 
-When you play Madlibs with friends with paper and pencil, only one person can see the text. That person asks the other players for words fitting the part of speech (e.g., noun, verb, place). Since the other players don't know what the text is about, they select whatever words come to mind that fit the part of speech, and in theory, hilarity ensures.
+When you play Madlibs with friends with paper and pencil, only one person (the scribe) can see the text. The scribe asks the other players for words fitting the part of speech (e.g., noun, verb, place). Since the other players don't know what the text is about, they select whatever words come to mind that fit the part of speech. Once all the responses have been collected, the scribe reads the completed text out loud, and (in theory) hilarity ensues.
 
 In this version of the game, the computer knows the text and asks the user for words. The computer then writes out the complete text to a file. 
 
@@ -50,7 +50,7 @@ Here are the requirements for this prorgram:
 
 Here is a sample run of the program using `madlib2.txt` as the input file.
 
-<img src="pic1.png" width=500>
+<img src="part1-item1.png" width=500>
 
 And here is what the output file looks like:
 
@@ -73,9 +73,18 @@ You can decide how you would like to structure your program. These are the requi
 
 3. When the user enters `y`, the program will print out a thank-you message that mentions how many guesses it took and terminate. However, if the user never enters `y`, it means the user was cheating, and the program should print out a message reminding the user that it isn't nice to cheat.
 
- Here are some example runs of the program:
+ Here is an example successful run
 
-<img src="pic2.png" width=700>
+<img src="part2-item1.png" width=700>
+
+And here's an example where the user cheats. I've left out a bunch of guesses in the middle, of course!
+
+<img src="part2-item2.png" width=700>
+
+```...```
+
+<img src="part2-item3.png" width=700>
+
 
 ## Part 3: Guess my number, version 2
 
