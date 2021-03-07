@@ -132,7 +132,7 @@ In total you will print out 20 different averages! If all your averages are not 
 ---
 
 ## What to turn in
-If you haven't already, create a `ps5` folder. In your `p45 folder you should have three python scripts: `part1.py`, `part2.py`, and `part3.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`).
+If you haven't already, create a `ps5` folder. In your `p5` folder you should have three python scripts: `part1.py`, `part2.py`, and `part3.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`).
 
 Upload the `.zip` file you created to Canvas. 
 
