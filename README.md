@@ -39,7 +39,7 @@ Here are the requirements for this prorgram:
 
 1. A function called `readMadLib(infile)`. This function takes as an argument a string that is the name a file. It opens the file, reads the whole file into a string, splits the string on space using `split()`, and returns the **list** that `split()` creates.
 
-2. A function called `writeMadLib(mylist, outfile)`. This function taes as an argument a list, `mylist` and writes it out to a file, `outfile`.
+2. A void function called `writeMadLib(mylist, outfile)`. This function takes as its first argument a list, `mylist`, and writes it out to the file specified by the second argument, `outfile`.
 
 3. A `main()` function. The main function should have the following functionality:
 
@@ -97,6 +97,37 @@ To guarantee that the computer will eventually guess the number, you will keep t
 Other than how the computer guesses the number, the behavior should be the same as Part 2 (e.g., asking for `y` and `n`, reporting back the number of guesses or whether the person cheated). Again, you can structure this however you like, as long as it runs as intended, produces the correct output, is commented, and doesn't have a lot of unnecessary code.
 
 Here is an example successful run:
+
+<img src="part2-item1.png" width=450>
+
+
+## Part 4: List comprehensions, new built-in functions, and slicing
+
+This program will give you practice working with list comprehensions and will give you the opportunity to explore some new built-in python functions.
+
+1. Write a function called `loopLists(n)` that takes an integer argument `n` and does the following: 
+
+ * Using a **loop**, create a list `randlist` that contains `n` random integers between 1 and 100, inclusive. (Duplicates are fine!)
+ * Using a **loop**, create a different list `evenlist` that contains only the even numbers from the list you created above.
+ * Return `randlist` and `evenlist`
+
+2. Write a function called `compLists(n)` that takes an integer argument `n` and does the following: 
+
+ * Using a **list comprehension**, create a list, `randomlist`, of `n` random integers between 1 and 100, inclusive. This means you create the list in a single line of code. For a review of list comprehensions, [see here](https://realpython.com/list-comprehension-python/#using-list-comprehensions).
+ * Using a **list comprehension**, create a list, `evenlist`, that contains only the even numbers from the list you created above. Again, you must create the list in a single line of code!
+ * Return `randlist` and `evenlist`
+
+3. Write a function called  `loopaverage(mylist)` that **uses a loop** to calculates and returns the average of all the numbers in a list.
+
+4. Write a function called  `fastaverage(mylist)` that calculates and return the average of all the numbers in a list **in a single line without importing any additional libraries**.
+
+5. Write a `main()` method that:
+
+* Call `loopLists(1000)`. Calculate and print out the average of the two returned lists using `loopaverage()`.
+* Call `compLists(1000)`. Calculate and print out the average of the two returned lists using `fastaverage()`.
+* Using either of the two averaging functions, calculate and print out the average of each quartile of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the quartiles of elements in each list. You will print out a total of 16 averages in this part.
+
+In total you will print out 20 different averages! If all your averages are not close to each other, you did something wrong. :)
 
 ---
 
