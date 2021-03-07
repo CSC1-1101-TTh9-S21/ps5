@@ -67,14 +67,17 @@ The user will pick a number, and the computer will try to guess it. The user wil
 
 You can decide how you would like to structure your program. These are the requirements:
 
-1. Ask the user to enter a nunber between 1 and 100 inclusive. While the user enters something other than a number between 1 and 100 (e.g., a letter, a word, a number small or larger, a decimal number), ask the user to try again. 
+1. Ask the user to think of a number between 1 and 100 inclusive.  
 
-2. The computer will then try to guess the number by starting at 1. The computer will print out the guess to the user, and the user will respond `y` or `n`. If 
+2. The computer will then try to guess the number by starting at 1, and then guessing each subsequent number until it guesses correctly. The computer will print out its guess to the user and ask the user to respond `y` if the guess is correct or `n` if the guess is incorrect. If the user enters anything other than `y` or `n`, the program will say that it didn't understand and ask the user to respond again with either `y` or `n`.
 
- 
-Here are some example runs of the program:
+3. When the user enters `y`, the program will print out a thank-you message that mentions how many guesses it took and terminate. However, if the user never enters `y`, it means the user was cheating, and the program should print out a message reminding the user that it isn't nice to cheat.
+
+ Here are some example runs of the program:
 
 <img src="pic2.png" width=700>
+
+## Part 3: Guess my number, version 2
 
 
  The one thing that guarantees the computer will eventually guess the number is that it is not allowed to guess the same number twice.
