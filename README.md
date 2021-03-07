@@ -79,15 +79,15 @@ You can decide how you would like to structure your program. These are the requi
 
  Here is an example successful run:
 
-<img src="part2-item1.png" width=700>
+<img src="part2-item1.png" width=600>
 
 And here's an example where the user cheats. I've left out a bunch of guesses in the middle, of course!
 
-<img src="part2-item2.png" width=700>
+<img src="part2-item2.png" width=600>
 
 ```...```
 
-<img src="part2-item3.png" width=450>
+<img src="part2-item3.png" width=350>
 
 
 ## Part 3: Guess my number, version 2
@@ -100,7 +100,7 @@ Other than how the computer guesses the number, the behavior should be the same 
 
 Here is an example successful run:
 
-<img src="part2-item1.png" width=450>
+<img src="part2-item1.png" width=600>
 
 
 ## Part 4: List comprehensions, list slicing, and reading Python documentation
@@ -119,7 +119,7 @@ This program will give you practice working with list comprehensions, list slici
  * Using a **list comprehension**, create a list, `evenlist`, that contains only the even numbers from the list you created above. Again, you must create the list in a single line of code!
  * Return `randlist` and `evenlist`
 
-3. Write a function called  `loopaverage(mylist)` that **uses a loop** to calculates and returns the average of all the numbers in a list.
+3. Write a function called  `loopaverage(mylist)` that **uses a loop** to calculate and return the average of all the numbers in a list.
 
 4. Write a function called  `fastaverage(mylist)` that calculates and return the average of all the numbers in a list **in a single line without importing any additional libraries**. Have a look at [these useful built-in Python functions](https://docs.python.org/3/library/functions.html) if you need some ideas.
 
@@ -127,9 +127,10 @@ This program will give you practice working with list comprehensions, list slici
 
 * Call `loopLists(10000)`. Calculate and print out the average of the two returned lists using `loopaverage()`.
 * Call `compLists(10000)`. Calculate and print out the average of the two returned lists using `fastaverage()`.
-* Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. You will print out a total of 16 averages in the `main()` method.
+* Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. 
 
-If all your averages are not close to each other, you did something wrong. :)
+
+You will print out a total of 16 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 
 ---
 
