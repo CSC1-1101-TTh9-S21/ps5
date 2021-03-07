@@ -101,9 +101,9 @@ Here is an example successful run:
 <img src="part2-item1.png" width=450>
 
 
-## Part 4: List comprehensions, new built-in functions, and slicing
+## Part 4: List comprehensions, list slicing, and reading Python documentation
 
-This program will give you practice working with list comprehensions and will give you the opportunity to explore some new built-in python functions.
+This program will give you practice working with list comprehensions, list slicing, and reading Python documentation.
 
 1. Write a function called `loopLists(n)` that takes an integer argument `n` and does the following: 
 
@@ -119,15 +119,15 @@ This program will give you practice working with list comprehensions and will gi
 
 3. Write a function called  `loopaverage(mylist)` that **uses a loop** to calculates and returns the average of all the numbers in a list.
 
-4. Write a function called  `fastaverage(mylist)` that calculates and return the average of all the numbers in a list **in a single line without importing any additional libraries**.
+4. Write a function called  `fastaverage(mylist)` that calculates and return the average of all the numbers in a list **in a single line without importing any additional libraries**. Have a look at [these useful built-in Python functions](https://docs.python.org/3/library/functions.html) if you need some ideas.
 
 5. Write a `main()` method that:
 
-* Call `loopLists(1000)`. Calculate and print out the average of the two returned lists using `loopaverage()`.
-* Call `compLists(1000)`. Calculate and print out the average of the two returned lists using `fastaverage()`.
-* Using either of the two averaging functions, calculate and print out the average of each quartile of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the quartiles of elements in each list. You will print out a total of 16 averages in this part.
+* Call `loopLists(10000)`. Calculate and print out the average of the two returned lists using `loopaverage()`.
+* Call `compLists(10000)`. Calculate and print out the average of the two returned lists using `fastaverage()`.
+* Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. You will print out a total of 16 averages in the `main()` method.
 
-In total you will print out 20 different averages! If all your averages are not close to each other, you did something wrong. :)
+If all your averages are not close to each other, you did something wrong. :)
 
 ---
 
