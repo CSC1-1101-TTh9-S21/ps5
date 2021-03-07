@@ -1,6 +1,6 @@
 # Problem Set 5
 
-### Due Friday, February 12, 2021, at 11:59pm EST
+### Due Friday, March 12, 2021, at 11:59pm EST
 
 For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
 
@@ -56,10 +56,12 @@ And here is what the output file looks like:
 When I was swimming to Trader Joe's , I found a lampshade on the sidewalk . I picked it up and gave it to my fireplace who said " Meh !"
 ```
 
+## Part 2: Guess my number
+In the last problem set, you wrote a program in which the program randomly selected a letter of the alphabet and the user tried to guess it. This time, the tables will be turned: the computer will have to guess what the user is thinking. In addition, we'll switch from letters to integers between 1 and 100, inclusive, to make it a little more challenging.
+
+The user will pick a number, and the computer will try to guess it. The user will not actually tell the computer anything other than "yes" or "no", so the computer will have to guess randomly. The one thing that guarantees the computer will eventually guess the number is that it is not allowed to guess the same number twice.
 
 
-## Part 2: Guess my letter
-You will be starting this problem with the code provided in this repo called `part2.py`. You can download this repo by going to the green `Code` button and then clicking `Download .zip`, or you can just copy and paste the code from `part2.py` into a file you have created in IDLE called `part2.py`.
 
 The `main()` code I have provided will use a function I wrote to randomly select a secret letter between *A* and *Z*. Your job is to write code, within the `main()` function, that will allow the user **10 chances** to try to guess the letter. After each guess, the program will tell the user one of four things: 
 
@@ -83,30 +85,6 @@ Here are some example runs of the program:
 
 <img src="pic2.png" width=700>
 
-
-## Part 3: Working with input and output
-Create a program called `part3.py`. It will have just a `main()` function. The `main()` function will:
-
-1. Open a file to read provided as a command line argument. I've provided an example text file in this repository called `testfile.txt`.
-
-2. Create **four** variables storing: (1) the number of lines in the file; (2) the number of characters in the file; (3) the number of lines containing the letter "e"; (4) the number of lines containing the letter "x".
-
-3. Read in the file line by line, and for each line add to the totals stored in the above variables.
-
-4. After reading in the file, open a file to write to called `filestats.txt`.
-
-5. Write out to `filestats.txt` the information you kept track of while reading in the input file, as well as the average number of characters per line **formatted with two digits after the decimal point**.
-
-Here is a completely made-up example of what the output file you create should look like:
-
-```
-File Statistics
-Number of line: 31
-Number of characters: 256
-Number of lines containing "e": 256
-Number of lines containing "x": 57
-Characters per line: 6.24
-```
 
 ---
 
