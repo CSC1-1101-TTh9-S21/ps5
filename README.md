@@ -73,7 +73,9 @@ You can decide how you would like to structure your program. These are the requi
 
 3. When the user enters `y`, the program will print out a thank-you message that mentions how many guesses it took and terminate. However, if the user never enters `y`, it means the user was cheating, and the program should print out a message reminding the user that it isn't nice to cheat.
 
- Here is an example successful run
+4. The TAs and I should be able to run your program simply by going to to the `Run -> Run Module` option in IDLE.
+
+ Here is an example successful run:
 
 <img src="part2-item1.png" width=700>
 
@@ -88,8 +90,13 @@ And here's an example where the user cheats. I've left out a bunch of guesses in
 
 ## Part 3: Guess my number, version 2
 
+In Part 3, you will write another version of the program in Part 2, but this time, the computer will guess a random integer between 1 and 100 rather than starting at 1 and going up one-by-one. You can [look here](https://www.w3schools.com/python/ref_random_randint.asp) to learn about how to choose a random integer using the `randint()` function of the `random` module
 
- The one thing that guarantees the computer will eventually guess the number is that it is not allowed to guess the same number twice.
+To guarantee that the computer will eventually guess the number, you will keep track of what it guesses with a list, and use that list to prevent the computer from guessing the same number twice. 
+
+Other than how the computer guesses the number, the behavior should be the same as Part 2 (e.g., asking for `y` and `n`, reporting back the number of guesses or whether the person cheated). Again, you can structure this however you like, as long as it runs as intended, produces the correct output, is commented, and doesn't have a lot of unnecessary code.
+
+Here is an example successful run:
 
 ---
 
