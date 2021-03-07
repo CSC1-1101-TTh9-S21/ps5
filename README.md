@@ -7,7 +7,7 @@ For this problem set, you will submit to Canvas **a single .zip file**. Detailed
 **Note: Your programs should all have the following format: import statements (if necessary); then function definitions (if there are any); then a `main()` function that gets the ball rolling and calls the functions you defined (if any); and finally outide all other functions, the call to `main()`.**
 
 ### Comments
-I now expect you to write comments in your code! Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if your comments do not conform to these requirements:
+I now expect you to write comments in your code! Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to these requirements:
 
 * Before every function, describe what it does and what its arguments are (if any).
 * Before every variable, explain what value it is holding or what purpose it serves. (Exception: the variable that helps you go through a `for` loop does not need to be explained, of course!)
