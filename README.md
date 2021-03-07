@@ -83,7 +83,7 @@ And here's an example where the user cheats. I've left out a bunch of guesses in
 
 ```...```
 
-<img src="part2-item3.png" width=700>
+<img src="part2-item3.png" width=450>
 
 
 ## Part 3: Guess my number, version 2
