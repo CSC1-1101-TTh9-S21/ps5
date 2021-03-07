@@ -25,7 +25,7 @@ And, as always, in every program, the first four lines (comments) should be:
 ---
 
 ## Part 1: Madlibs
-In this program, you will write your own interface for doing [Madlibs](https://en.wikipedia.org/wiki/Mad_Libs). Look at the text file called `madlib2.txt`. You will see normal text interspersed with parts of speech in all caps. Here's an excerpt:
+In this program, you will write your own interface for doing [Madlibs](https://en.wikipedia.org/wiki/Mad_Libs). I've provided a few sample Madlibs. Look at the text file called `madlib2.txt`. You will see normal text interspersed with parts of speech in all caps. Here's an excerpt:
 
 ```
 When I was VERB_IN_ING to PLACE , I found a NOUN on the sidewalk .
@@ -59,6 +59,8 @@ When I was swimming to Trader Joe's , I found a lampshade on the sidewalk . I pi
 ```
 
 *Hint: Don't forget to consult the various functions on strings, which you can learn about [here](https://www.w3schools.com/python/python_ref_string.asp).*
+
+*Feel free to entertain the TAs and me by providing your own Madlib!*
 
 ## Part 2: Guess my number, version 1
 In the last problem set, you wrote a program in which the program randomly selected a letter of the alphabet and the user tried to guess it. This time, the tables will be turned: the computer will have to guess what the user is thinking. In addition, we'll switch from letters to integers between 1 and 100, inclusive.
