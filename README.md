@@ -105,7 +105,7 @@ Here is an example successful run:
 
 ## Part 4: List comprehensions, list slicing, and reading Python documentation
 
-This program will give you practice working with list comprehensions, list slicing, and reading Python documentation.
+This program, `part4.py` will give you practice working with list comprehensions, list slicing, and reading Python documentation.
 
 1. Write a function called `loopLists(n)` that takes an integer argument `n` and does the following: 
 
@@ -130,12 +130,12 @@ This program will give you practice working with list comprehensions, list slici
 * Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. 
 
 
-You will print out a total of 16 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
+You will print out a total of 12 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 
 ---
 
 ## What to turn in
-If you haven't already, create a `ps5` folder. In your `p5` folder you should have three python scripts: `part1.py`, `part2.py`, and `part3.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`).
+If you haven't already, create a `ps5` folder. In your `p5` folder you should have three python scripts: `part1.py`, `part2.py`,  `part3.py`, and `part4.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`).
 
 Upload the `.zip` file you created to Canvas. 
 
