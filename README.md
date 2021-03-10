@@ -115,7 +115,7 @@ This program, `part4.py` will give you practice working with list comprehensions
 
 2. Write a function called `compLists(n)` that takes an integer argument `n` and does the following: 
 
- * Using a **list comprehension**, create a list, `randomlist`, of `n` random integers between 1 and 100, inclusive. This means you create the list in a single line of code. For a review of list comprehensions, [see here](https://realpython.com/list-comprehension-python/#using-list-comprehensions).
+ * Using a **list comprehension**, create a list, `randlist`, of `n` random integers between 1 and 100, inclusive. This means you create the list in a single line of code. For a review of list comprehensions, [see here](https://realpython.com/list-comprehension-python/#using-list-comprehensions).
  * Using a **list comprehension**, create a list, `evenlist`, that contains only the even numbers from the list you created above. Again, you must create the list in a single line of code!
  * Return `randlist` and `evenlist`
 
